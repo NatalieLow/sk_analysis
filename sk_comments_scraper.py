@@ -1,3 +1,6 @@
+#Build a web scraper to pull all comments for each recipe on https://smittenkitchen.com/
+#Export scrapped data as a .csv
+
 from bs4 import BeautifulSoup
 import urllib.request
 import re
